@@ -1,4 +1,4 @@
-print("W5HGen 1.0")
+print("W5HGen 2.0")
 
 projectName = input("Name of your project. This will be appended as 'w5h-projectName.txt' -> ")
 print("Let's begin constructing the 5 points as well as the header. Put in information at the prompts")
