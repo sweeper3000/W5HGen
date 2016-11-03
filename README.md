@@ -4,7 +4,7 @@ A python script to help you create a list for W5H: Who, What, When, Where, Why, 
 Needs to be run with python3
 
 ## Usage
-The program will start by asking for the filename. It will be called `w5h-fileName.txt`. 
+The program will start by asking for the filename. It will be called `w5h-projectName.txt`. 
 
 The program asks for the title of the document. It will be in all caps no matter the input as it is run through `upper()`.
 
