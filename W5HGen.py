@@ -1,4 +1,4 @@
-print("W5HGen 2.0")
+print("W5HGen 2.1")
 print("")
 
 projectName = input("Name of your project. This will be saved as 'w5h-projectName.txt' where projectName is the name you specify -> ")
