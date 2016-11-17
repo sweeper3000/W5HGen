@@ -1,9 +1,11 @@
 print("W5HGen 2.0")
+print("")
 
-projectName = input("Name of your project. This will be appended as 'w5h-projectName.txt' -> ")
+projectName = input("Name of your project. This will be saved as 'w5h-projectName.txt' where projectName is the name you specify -> ")
 print("Let's begin constructing the 5 points as well as the header. Put in information at the prompts")
 
-projectTitle = input("What should the header of the file be? -> ")
+print("")
+projectTitle = input("What should the header of the file be? The title will be converted to all caps -> ")
 who = input("Who? Names of people relevent to the project -> ")
 what = input("What happened? -> ")
 when = input("When did the event happen? -> ")
@@ -21,6 +23,7 @@ w5hCreate.write("WHY: " + why + "\n")
 w5hCreate.write("HOW: " + how + "\n")
 w5hCreate.close()
 
+print("")
 print("Your file is saved. Here's what it looks like:")
 w5hRead = open("w5h-" + projectName + ".txt", "r")
 print("NOTE: The beginning and end headers are not included in the text file.")
